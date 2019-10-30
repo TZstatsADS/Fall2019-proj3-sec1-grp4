@@ -8,16 +8,16 @@ Term: Fall 2019
 
 + Team Section1 Group4
 + Team members
-	+ Chen Haofeng (hc2962 )
+	+ Chen Haofeng (hc2962)
 	+ Song Mingming (ms5710)
 	+ Yang Yifan (yy2955)
 	+ Zhang Shijie (sz2781)
 	+ Zhou Zihan (zz2573)
 
-+ Project summary: In this project, we created a classification engine for facial emotion recognition. 
++ Project summary: In this project, we evaluated performances of several different classification methods and selected an optimal classification engine for facial emotion recognition. 
 	
 
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members approve our work presented in this GitHub repository including this contributions statement. Zihan implemented baseline model using GBM(Gradient Boosting Machine) and did parameter tuning to improve its accuracy.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
