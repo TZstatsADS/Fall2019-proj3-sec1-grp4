@@ -17,7 +17,24 @@ Term: Fall 2019
 + Project summary: In this project, we evaluated performances of several different classification methods and selected an optimal classification engine for facial emotion recognition. 
 	
 
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members approve our work presented in this GitHub repository including this contributions statement. Zihan implemented baseline model using GBM(Gradient Boosting Machine) and did parameter tuning to improve its accuracy. Mingming was in charge of the KNN(K-Nearest Neighbors model) and Decision Tree model, and also worked on parameter tuning to get better accuracy for both models. Shijie implemented the KNN model and the baseline model using XGBoost, and conducted parameter tuning to improve the accuracy. Haofeng implemented and tuned SVC(Support Vector Classifier) and Random Forest, and made slides for the presentation. Yifan implemented and tuned Neural Network models(which achieves the highest accuracy), and summarized work by all team members.
+**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members approve our work presented in this GitHub repository including this contributions statement. 
+
+* Zihan:
+  * Implemented baseline model using GBM(Gradient Boosting Machine)
+  * Tuned parameters to improve its accuracy. 
+* Mingming:
+  * In charge of the KNN(K-Nearest Neighbors model) and Decision Tree model
+  * Worked on parameter tuning to get better accuracy for both models. 
+* Shijie:
+  * Implemented the KNN model and the baseline model using XGBoost
+  * Conducted parameter tuning to improve the accuracy. 
+* Haofeng:
+  * Implemented and tuned SVC(Support Vector Classifier) and Random Forest
+  * Made slides for the presentation. 
+  * Presented our groupwork
+* Yifan:
+  * Tested all possible models( KNN, Decision Tree, Random Forest, Logistic Regression, Linear SVC, Other SVC, Feedforward Neural Network and Convolutional Neural Network) with three different input feature matrixs (Point coordinates, Point distances and raw images)
+  * Edited and summarized groupwork
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
