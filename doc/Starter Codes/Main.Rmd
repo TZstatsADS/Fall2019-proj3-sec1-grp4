@@ -48,14 +48,14 @@ library(caret)
 ### Step 0 set work directories, extract paths, summarize
 ```{r wkdir, eval=FALSE}
 set.seed(0)
-setwd("/Users/HenryZhou/Desktop/GitHub/Fall2019-proj3-sec1--proj3-sec1-grp4/doc/")
+setwd("/Users/HenryZhou/Desktop/GitHub/Fall2019-proj3-sec1--proj3-sec1-grp4/doc/Starter Codes")
 # here replace it with your own path or manually set it in RStudio to where this rmd file is located. 
 # use relative path for reproducibility
 ```
 
 Provide directories for training images. Training images and Training fiducial points will be in different subfolders. 
 ```{r}
-train_dir <- "../data/train_set/" # This will be modified for different data sets.
+train_dir <- "../../data/train_set/" # This will be modified for different data sets.
 train_image_dir <- paste(train_dir, "images/", sep="")
 train_pt_dir <- paste(train_dir,  "points/", sep="")
 train_label_path <- paste(train_dir, "label.csv", sep="") 
@@ -117,7 +117,7 @@ readMat.matrix <- function(index){
 
 #load fiducial points
 fiducial_pt_list <- lapply(1:n_files, readMat.matrix)
-save(fiducial_pt_list, file="../output/fiducial_pt_list.RData")
+#save(fiducial_pt_list, file="../output/fiducial_pt_list.RData")
 ```
 
 ### Step 3: construct features and responses
