@@ -17,7 +17,7 @@ Term: Fall 2019
 + Project summary: In this project, we evaluated performances of several different classification methods and selected an optimal classification engine for facial emotion recognition. 
 	
 
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members approve our work presented in this GitHub repository including this contributions statement. Zihan implemented baseline model using GBM(Gradient Boosting Machine) and did parameter tuning to improve its accuracy. Mingming was in charge of the KNN(K-Nearest Neighbors model) and Decision Tree model, and also worked on parameter tuning to get better accuracy for both models.
+**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members approve our work presented in this GitHub repository including this contributions statement. Zihan implemented baseline model using GBM(Gradient Boosting Machine) and did parameter tuning to improve its accuracy. Mingming was in charge of the KNN(K-Nearest Neighbors model) and Decision Tree model, and also worked on parameter tuning to get better accuracy for both models. Shijie implemented the KNN model and the baseline model using XGBoost, and conducted parameter tuning to improve the accuracy.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
